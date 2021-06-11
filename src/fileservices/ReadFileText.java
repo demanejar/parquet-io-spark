@@ -18,7 +18,7 @@ public class ReadFileText {
 	private List<ModelLog> listModelLog;
 
 	public ReadFileText() throws IOException, ParseException {
-		this("hdfs://127.0.0.1:9000/usr/trannguyenhan/pt-v-1533869954405.dat");
+		this("hdfs://127.0.0.1:9000/sample_text");
 	}
 
 	public ReadFileText(String path) throws IOException, ParseException {
